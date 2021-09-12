@@ -12,7 +12,7 @@ namespace RentCar.Models
     {
         [HiddenInput(DisplayValue =false)]
         public int Id { get; set; }
-        [Range(11,11, ErrorMessage ="Номер телефона должен содержать 11 символов, вначале +")]
+        [Range(12,12, ErrorMessage ="Номер телефона должен содержать 11 символов, вначале +")]
         [DisplayName("Номер телефона")]
         [DataType(DataType.Text)]
         public string Phone { get; set; }
