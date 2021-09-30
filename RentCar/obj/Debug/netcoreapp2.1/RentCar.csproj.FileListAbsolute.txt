@@ -9,7 +9,6 @@ C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.cspr
 C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.csproj.CoreCompileInputs.cache
 C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorAssemblyInfo.cache
 C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.RazorAssemblyInfo.cs
-C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.AssemblyInfoInputs.cache
 C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.AssemblyInfo.cs
 C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.TagHelpers.input.cache
@@ -30,3 +29,4 @@ C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.View
 C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.dll
 C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.pdb
 C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\RentCar.csproj.CopyComplete
+C:\Users\dim5d\source\repos\RentCar\RentCar\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

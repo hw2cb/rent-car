@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using RentCar.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using RentCar.Models.Data;
 
 namespace RentCar
 {
@@ -27,6 +28,7 @@ namespace RentCar
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -40,6 +42,8 @@ namespace RentCar
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            string connectionString = Configuration.GetConnectionString("DBConnection");
+            services.AddTransient<ICarRepository, CarRepository>(provider => new CarRepository(connectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
